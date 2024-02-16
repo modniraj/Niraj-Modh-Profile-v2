@@ -715,6 +715,7 @@ nav a.active {
         background-size: contain;/* Or a specific percentage */
         background-position: center; /* Adjust as needed */
         background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 
     .home-content {
@@ -842,6 +843,7 @@ nav a.active {
         background-size: contain;/* Or a specific percentage */
         background-position: center; /* Adjust as needed */
         background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 }
 
@@ -863,6 +865,7 @@ nav a.active {
         background-size: contain;/* Or a specific percentage */
         background-position: center; /* Adjust as needed */
         background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 
     .home-content, .about, .services-list, .contact, .footer {
@@ -890,6 +893,7 @@ nav a.active {
         background-size: contain;/* Or a specific percentage */
         background-position: center; /* Adjust as needed */
         background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 
     .progress-bar {
@@ -914,6 +918,7 @@ nav a.active {
         background-size: contain;/* Or a specific percentage */
         background-position: center; /* Adjust as needed */
         background-repeat: no-repeat;
+        background-attachment: fixed;
     }
     .home-content, .about, .services-list, .Skills, .projects, .contact, .footer {
         padding: 15px; /* Reduce padding for content areas */
@@ -942,6 +947,7 @@ nav a.active {
         background-size: contain;/* Or a specific percentage */
         background-position: center; /* Adjust as needed */
         background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 }
 
