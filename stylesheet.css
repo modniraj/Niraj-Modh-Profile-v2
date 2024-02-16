@@ -193,7 +193,6 @@ nav a.active {
     box-shadow: 0 0 5px gold,
     0 0 25px gold, 0 0 50px gold, 0 0 100px gold, 0 0 200px gold;
 }
-
 .btn-box-resume {
     display: inline-block;
     text-decoration: none;
@@ -711,6 +710,9 @@ nav a.active {
         flex-direction: column;
         padding: 70px 10% 0;
         text-align: center;
+        background-size: contain; /* Keeps the cover effect but adjust as needed */
+        background-position: center; /* Center the background image */
+    
     }
 
     .home-content {
@@ -835,6 +837,9 @@ nav a.active {
     .glass {
         width: 400px;
         height: 500px;
+        background-size: contain; /* Keeps the cover effect but adjust as needed */
+        background-position: center; /* Center the background image */
+    
     }
 }
 
@@ -846,7 +851,12 @@ nav a.active {
         padding-left: 10px; /* Reduce padding for smaller screens */
         display: block; /* Stack elements vertically */
     }
-
+    .home {
+        /* background-attachment: scroll; Change attachment to scroll */
+        background-size: contain; /* Keeps the cover effect but adjust as needed */
+        background-position: center; /* Center the background image */
+    
+    }
     nav a {
         font-size: 18px; /* Reduce font size for smaller screens */
         margin-left: 15px; /* Adjust spacing between nav items */
@@ -874,6 +884,9 @@ nav a.active {
         width: 100%; /* Make glass effect container full width */
         max-width: 400px; /* Limit max width for larger screens */
         height: auto; /* Adjust height based on content */
+        background-size: contain; /* Keeps the cover effect but adjust as needed */
+        background-position: center; /* Center the background image */
+    
     }
 
     .progress-bar {
@@ -918,6 +931,9 @@ nav a.active {
     .glass {
         padding: 15px; /* Adjust padding inside glass effect containers */
         border-radius: 25px; /* Soften border radius for aesthetic adaptation */
+        background-size: contain; /* Keeps the cover effect but adjust as needed */
+        background-position: center; /* Center the background image */
+    
     }
 }
 
