@@ -712,7 +712,7 @@ nav a.active {
         flex-direction: column;
         padding: 70px 10% 0;
         text-align: center;
-        background-size: contain;/* Or a specific percentage */
+        background-size: auto; /* Or a specific percentage */
         background-position: center; /* Adjust as needed */
         background-repeat: no-repeat;
     }
@@ -839,7 +839,7 @@ nav a.active {
     .glass {
         width: 400px;
         height: 500px;
-        background-size: contain;/* Or a specific percentage */
+        background-size: auto;/* Or a specific percentage */
         background-position: center; /* Adjust as needed */
         background-repeat: no-repeat;
     }
@@ -860,7 +860,7 @@ nav a.active {
     }
     .home {
       
-        background-size: contain;/* Or a specific percentage */
+        background-size: auto;/* Or a specific percentage */
         background-position: center; /* Adjust as needed */
         background-repeat: no-repeat;
     }
@@ -887,7 +887,7 @@ nav a.active {
         width: 100%; /* Make glass effect container full width */
         max-width: 400px; /* Limit max width for larger screens */
         height: auto; /* Adjust height based on content */
-        background-size: contain;/* Or a specific percentage */
+        background-size: auto;/* Or a specific percentage */
         background-position: center; /* Adjust as needed */
         background-repeat: no-repeat;
     }
@@ -911,7 +911,7 @@ nav a.active {
     }
     .home {
       
-        background-size: contain;/* Or a specific percentage */
+        background-size: auto;/* Or a specific percentage */
         background-position: center; /* Adjust as needed */
         background-repeat: no-repeat;
     }
@@ -939,7 +939,7 @@ nav a.active {
     .glass {
         padding: 15px; /* Adjust padding inside glass effect containers */
         border-radius: 25px; /* Soften border radius for aesthetic adaptation */
-        background-size: contain;/* Or a specific percentage */
+        background-size: auto;/* Or a specific percentage */
         background-position: center; /* Adjust as needed */
         background-repeat: no-repeat;
     }
