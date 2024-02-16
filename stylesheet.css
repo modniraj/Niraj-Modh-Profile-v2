@@ -712,7 +712,7 @@ nav a.active {
         flex-direction: column;
         padding: 70px 10% 0;
         text-align: center;
-        background-size: contain; /* Or a specific percentage */
+        background-size: contain;/* Or a specific percentage */
         background-position: center; /* Adjust as needed */
         background-repeat: no-repeat;
     }
