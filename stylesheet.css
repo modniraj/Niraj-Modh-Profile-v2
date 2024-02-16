@@ -911,7 +911,10 @@ nav a.active {
         padding: 15px; /* Reduce padding for content areas */
         padding-top: 25%;
     }
-
+    .home{
+        background-size: contain; /* Keeps the cover effect but adjust as needed */
+        background-position: center; /* Center the background image */ 
+    }
     .home-content h3 {
         font-size: 24px; /* Adjust home content headings for very small screens */
     }
