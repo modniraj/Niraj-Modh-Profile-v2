@@ -710,7 +710,7 @@ nav a.active {
         flex-direction: column;
         padding: 70px 10% 0;
         text-align: center;
-        background-size: contain; /* Keeps the cover effect but adjust as needed */
+        background-size: auto; /* Keeps the cover effect but adjust as needed */
         background-position: center; /* Center the background image */
     
     }
@@ -837,7 +837,7 @@ nav a.active {
     .glass {
         width: 400px;
         height: 500px;
-        background-size: contain; /* Keeps the cover effect but adjust as needed */
+        background-size: auto; /* Keeps the cover effect but adjust as needed */
         background-position: center; /* Center the background image */
     
     }
@@ -853,7 +853,7 @@ nav a.active {
     }
     .home {
         /* background-attachment: scroll; Change attachment to scroll */
-        background-size: contain; /* Keeps the cover effect but adjust as needed */
+        background-size: auto; /* Keeps the cover effect but adjust as needed */
         background-position: center; /* Center the background image */
     
     }
@@ -884,7 +884,7 @@ nav a.active {
         width: 100%; /* Make glass effect container full width */
         max-width: 400px; /* Limit max width for larger screens */
         height: auto; /* Adjust height based on content */
-        background-size: contain; /* Keeps the cover effect but adjust as needed */
+        background-size: auto; /* Keeps the cover effect but adjust as needed */
         background-position: center; /* Center the background image */
     
     }
@@ -912,7 +912,7 @@ nav a.active {
         padding-top: 25%;
     }
     .home{
-        background-size: contain; /* Keeps the cover effect but adjust as needed */
+        background-size: auto; /* Keeps the cover effect but adjust as needed */
         background-position: center; /* Center the background image */ 
     }
     .home-content h3 {
@@ -934,7 +934,7 @@ nav a.active {
     .glass {
         padding: 15px; /* Adjust padding inside glass effect containers */
         border-radius: 25px; /* Soften border radius for aesthetic adaptation */
-        background-size: contain; /* Keeps the cover effect but adjust as needed */
+        background-size: auto; /* Keeps the cover effect but adjust as needed */
         background-position: center; /* Center the background image */
     
     }
