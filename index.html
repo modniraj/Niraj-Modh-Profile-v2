@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niraj Modh</title>
+    <link rel="icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="script" href="main.js">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/turn.js/4.1.0/turn.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+    <header class = "header">
+        <a href = '#' class = "logo">Niraj <span>Modh</span></a>
+    
+        <nav>
+            <a href = '#home' style="--i:1" class="active">Home</a>
+            <a href = '#about' style="--i:2">About</a>
+            <a href = '#univeristy' style="--i:3">Work Experience</a>
+            <a href = '#skills' style="--i:4">Skills</a>
+            <a href = '#projects' style="--i:5">Projects</a>
+            <a href = '#contact' style="--i:6">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- Home Content -->
+    <section class = "home" id = "home" >
+        <div class = "home-content">
+            <h3><span>Hello</span> World!</h3>
+            <h4>I am Niraj, <span class = "text"></span></h4>
+            <p><br> <em>Busy <span>Engineering</span> Dreams</em></p>
+            <div class = "home-sci">
+                <a href = 'https://www.linkedin.com/in/niraj-modh-98160a193/' target='_blank'  style="--i:7"><i class='bx bxl-linkedin'></i></a>
+                <a href = 'https://github.com/modniraj' target='_blank' style="--i:8"><i class='bx bxl-github'></i></a>
+                <a href = 'https://wa.me/353894958090' target='_blank' style="--i:9"><i class='bx bxl-whatsapp' ></i></a>
+                <a href = 'mailto:nirajmodh11@gmail.com?body=Hey,%20Niraj!%20Lets%20Connect!' target='_blank'  style="--i:10" ><i class='bx bx-envelope'></i></a>
+                <a href = 'https://www.instagram.com/nirajmodh01/' target='_blank' style="--i:11"><i class='bx bxl-instagram'></i></a>
+               
+            </div>
+            
+            <a href = "niraj_CV.pdf" target='_blank' class = "btn-box-resume">RESUME</a>
+        </div>
+    </section>
+
+    <section class="about" id = "about">
+        <div class = "about-img">
+            <img src = "images/me.png" data-aos="fade-right">
+        </div>
+        <div class = "about-text"> 
+            <h2 data-aos="fade-down">About<span>Me</span></h2>
+            <h4 data-aos="fade-up">Software Engineer</h4>
+            <p data-aos="fade-left">
+                I am a dual-honours student majoring in Computer Science and Biology. My background includes hands-on experience in software development, 
+                cloud computing, machine learning, and data science. I've had the privilege of working in various organizations such as Microsoft, UHG (Optum), 
+                and Fouses, where I contributed to the enhancement of their software applications and cloud computing solutions.
+                <br><br>
+                <span id="more" style="display: none;">
+                    I have experience with multiple programming languages, including Java, Javascript, C#, SQL, Python, HTML, CSS, and I am focused on crafting innovative,
+                    cloud solutions through my expertise in Microsoft Azure and fundamental AWS. <br><br>
+                    In my pursuit of balance between technology and well-being, I prioritize disconnecting from the digital world to engage in table tennis, tennis, and cricket.
+                    <br><br>
+                    These activities keep me physically fit and provide a mental refresh, offering clarity and perspective vital for my personal and professional life. Whether representing North Kildare, or Maynooth University, each sport enriches my overall well-being and enhances my productivity when I return to my digital endeavors.
+                    <br><br>
+                </span>
+            </p>
+
+            <a href = "javascript:void(0);" class = "btn-box" onclick="toggleReadMore()"> Read More!</a>
+            
+        </div>
+    </section><style>
+      
+        .job-title{
+            color: #78c4d6; /* Slightly darker shade of white for company name */
+  
+        }
+        .company-name {
+            color: #f0f0f0; /* Lighter white shade */
+        }
+    </style>
+    <!-- work exp -->
+    <!-- <section class="univeristy" id = "univeristy">
+        
+            <div class="container">
+                <h2 class="sub-title" data-aos="fade-down">Work <span>Experience</span></h2>
+                <div class="services-list" data-aos="fade-up">
+                    <div>
+                        <ul>
+                            <li>
+                                <strong class="job-title">Technology development (Software developer and tester)</strong>
+                                <ul>
+                                    <li class="company-name"><strong>Optum</strong></li>
+                                    <li>Jun 2023 - Aug 2023 (3 months)</li>
+                                    <li>
+                                        <ul>
+                                            <li>Proficient in Shell and Bash scripting for automation and system management.</li>
+                                            <li>Experienced with AZ CLI for Azure resource management and Terraform(IAC).</li>
+                                            <li>Skilled in Azure Load Testing service for performance testing, achieving an 86% reduction in testing time.</li>
+                                            <li>Familiar with Jenkins for CI/CD automation (performance testing with Jenkins pipelines).</li>
+                                            <li>Proficient in Apache JMeter for performance testing.</li>
+                                            <li>Built chatbots (LLM) using Azure services, Microsoft Bot Framework and Bot Composer.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br><br>
+                            <li>
+                                <strong class="job-title">Chatbot Developer</strong>
+                                <ul>
+                                    <li class="company-name">Microsoft</li>
+                                    <li>Feb 2023 - May 2023 (4 months)</li>
+                                    <li>
+                                        <ul>
+                                            <li>Assisted by Microsoft experts, contributed to planning, designing, developing, and deploying a custom chatbot using Node.js, Python, Azure QNA maker API, and Azure services.</li>
+                                            <li>The chatbot achieved an average accuracy rate of 70% in answering tech-related questions with a dataset of over 10,000 Stack Overflow questions.</li>
+                                            <li>Developed and maintained API endpoints, automated test cases using Python and Selenium, and collaborated to resolve 95% of identified issues.</li>
+                                            <li>Collaborated with a cross-functional team of 12 members, ensuring an average response time of less than 4 seconds per query for a seamless user experience.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li><br><br>
+                            <li>
+                                <strong class="job-title">CS Lab demonstrator</strong>
+                                <ul>
+                                    <li class="company-name">Maynooth University</li>
+                                    <li>Sep 2022 - May 2023 (9 months)</li>
+                                    <li>
+                                        <ul>
+                                            <li>Taught Java, databases, data structures and algorithms.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li><br><br>
+                            <li>
+                                <strong class="job-title">Technology development (Software developer and tester)</strong>
+                                <ul>
+                                    <li class="company-name">Optum</li>
+                                    <li>Jun 2022 - Aug 2022 (3 months)</li>
+                                    <li>
+                                        <ul>
+                                            <li>Developing export functions in PDF, EXCEL and JSON format for large data-grids using C#.</li>
+                                            <li>Refactoring and redesigning of UI/UX components on the home page.</li>
+                                            <li>Automation Regression Testing using SpecFlow and Selenium integration.</li>
+                                            <li>Working with an Agile framework within the Enterprise Information Security Team.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li><br><br>
+                            <li>
+                                <strong class="job-title">Researcher</strong>
+                                <ul>
+                                    <li class="company-name">Maynooth University Human Health Institute</li>
+                                    <li>Jul 2021 - Aug 2021 (2 months)</li>
+                                    <li>
+                                        <ul>
+                                            <li>Studied the plasmids in E.coli and their association/dissociation with other resistant plasmids.</li>
+                                            <li>Processed results through Microsoft Excel and ran on advanced software like Gephi and R.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li><br><br>
+                            <li>
+                                <strong class="job-title">Web Developer</strong>
+                                <ul>
+                                    <li class="company-name">Fouses</li>
+                                    <li>Sep 2020 - Oct 2020 (2 months)</li>
+                                    <li>
+                                        <ul>
+                                            <li>Assimilated the business requirements and communicated with the design team.</li>
+                                            <li>Wrote cross-browser compatible code, maintained and improved the website.</li>
+                                            <li>Collaborated and led a team of 5 in developing a healthcare website (design, development, and deployment).</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section> -->
+    <section class="university" id="university">
+        <div class="container">
+            <h2 class="sub-title" data-aos="fade-down">Work <span>Experience</span></h2>
+            <center><h5>(click for more details)</h5></center>
+            <div class="services-list" data-aos="fade-up">
+                <ul>
+                    <li class="work-experience">
+                        <div class="job-title" onclick="toggleDetails(this)">
+                            <strong>Technology development (Software developer and tester) - Optum</strong>
+                            <span>Jun 2023 - Aug 2023 (3 months)</span>
+                        </div>
+                        <div class="job-details" style="display: none;">
+                            <ul>
+                                <li>Proficient in Shell and Bash scripting for automation and system management.</li>
+                                <li>Experienced with AZ CLI for Azure resource management and Terraform (IAC).</li>
+                                <li>Skilled in Azure Load Testing service for performance testing, achieving an 86% reduction in testing time.</li>
+                                <li>Familiar with Jenkins for CI/CD automation (performance testing with Jenkins pipelines).</li>
+                                <li>Proficient in Apache JMeter for performance testing.</li>
+                                <li>Built chatbots (LLM) using Azure services, Microsoft Bot Framework and Bot Composer.</li>
+                            </ul>
+                        </div>
+                    </li><br>
+                    <li class="work-experience">
+                        <div class="job-title" onclick="toggleDetails(this)">
+                            <strong>Chatbot Developer - Microsoft</strong>
+                            <span>Feb 2023 - May 2023 (4 months)</span>
+                        </div>
+                        <div class="job-details" style="display: none;">
+                            <ul>
+                                <li>Assisted by Microsoft experts, contributed to planning, designing, developing, and deploying a custom chatbot using Node.js, Python, Azure QNA maker API, and Azure services.</li>
+                                <li>The chatbot achieved an average accuracy rate of 70% in answering tech-related questions with a dataset of over 10,000 Stack Overflow questions.</li>
+                                <li>Developed and maintained API endpoints, automated test cases using Python and Selenium, and collaborated to resolve 95% of identified issues.</li>
+                                <li>Collaborated with a cross-functional team of 12 members, ensuring an average response time of less than 4 seconds per query for a seamless user experience.</li>
+                            </ul>
+                        </div>
+                    </li><br>
+                    <li class="work-experience">
+                        <div class="job-title" onclick="toggleDetails(this)">
+                            <strong>CS Lab demonstrator - Maynooth University</strong>
+                            <span>Sep 2022 - May 2023 (9 months)</span>
+                        </div>
+                        <div class="job-details" style="display: none;">
+                            <ul>
+                                <li>Taught Java, databases, data structures and algorithms.</li>
+                            </ul>
+                        </div>
+                    </li><br>
+                    <li class="work-experience">
+                        <div class="job-title" onclick="toggleDetails(this)">
+                            <strong>Technology development (Software developer and tester) - Optum</strong>
+                            <span>Jun 2022 - Aug 2022 (3 months)</span>
+                        </div>
+                        <div class="job-details" style="display: none;">
+                            <ul>
+                                <li>Developing export functions in PDF, EXCEL and JSON format for large data-grids using C#.</li>
+                                <li>Refactoring and redesigning of UI/UX components on the home page.</li>
+                                <li>Automation Regression Testing using SpecFlow and Selenium integration.</li>
+                                <li>Working with an Agile framework within the Enterprise Information Security Team.</li>
+                            </ul>
+                        </div>
+                    </li><br>
+                    <li class="work-experience">
+                        <div class="job-title" onclick="toggleDetails(this)">
+                            <strong>Researcher - Maynooth University Human Health Institute</strong>
+                            <span>Jul 2021 - Aug 2021 (2 months)</span>
+                        </div>
+                        <div class="job-details" style="display: none;">
+                            <ul>
+                                <li>Studied the plasmids in E.coli and their association/dissociation with other resistant plasmids.</li>
+                                <li>Processed results through Microsoft Excel and ran on advanced software like Gephi and R.</li>
+                            </ul>
+                        </div>
+                    </li><br>
+                    <li class="work-experience">
+                        <div class="job-title" onclick="toggleDetails(this)">
+                            <strong>Web Developer - Fouses</strong>
+                            <span>Sep 2020 - Oct 2020 (2 months)</span>
+                        </div>
+                        <div class="job-details" style="display: none;">
+                            <ul>
+                                <li>Assimilated the business requirements and communicated with the design team.</li>
+                                <li>Wrote cross-browser compatible code, maintained and improved the website.</li>
+                                <li>Collaborated and led a team of 5 in developing a healthcare website (design, development, and deployment).</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills -->
+
+    <!-- Progress Bars for Technical Skills-->
+    <section class="Skills" id = "skills">
+        <h1 class = "Skills-subtitle" data-aos="fade-down">My<span>Skills</span></h1>
+
+        <h3 data-aos="fade-right">Technical Skills</h3>
+       <div class="progress-bar" data-aos="fade-right">
+ 
+            <!-- Line 127 to 139 
+            for each circle bar-->
+
+            <div class="card">
+                <div class="percent" style="--clr:#DE9ACD;--num:100;">
+                    <div class="dot"></div>
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <p>Web dev</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="percent" style="--clr:#AFCBBA;--num:100;">
+                    <div class="dot"></div>
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <p>Javascript</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="percent" style="--clr:#8BFFAA;--num:100;">
+                    <div class="dot"></div>
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <p>Java</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="percent" style="--clr:#EF8C9A;--num:100;">
+                    <div class="dot"></div>
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <p>Python</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="percent" style="--clr:#8CD8DD;--num:100;">
+                    <div class="dot"></div>
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <p>SQL</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="percent" style="--clr:#8CD8DD;--num:100;">
+                    <div class="dot"></div>
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <p>Azure</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+
+        <!--Dont Forget to delete the h2 from the css !!!-->
+          <!-- Progress Bars for Professional Skills-->
+        <div class="soft-skill" data-aos="fade-left"> 
+
+            <h3>Soft Skills</h3>
+            <div class="progress-bar">
+
+                <!-- Line 127 to 139 
+                for each circle bar-->
+
+                <div class="card">
+                    <div class="percent" style="--clr:#04fc43;--num:100;">
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            <p>Team Work</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="percent" style="--clr:#FBDABB;--num:100;">
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="number">
+
+                            <p>Analytical</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="percent" style="--clr:#CDDE9E;--num:100;">
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            <p>Leadership</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="percent" style="--clr:#e6220d;--num:100;">
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            <p>Innovative</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="percent" style="--clr:#BBCDEF;--num:100;">
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            <p>Creativity</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="percent" style="--clr:#DD6622;--num:100;">
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            <p>Collaboration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div> 
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="services" id="services">
+            <div class="container">
+                <h2 class="sub-title" data-aos="fade-down">Projects <span>Completed</span></h2>
+                <div class="services-list" data-aos="fade-up">
+                    <div>
+                        <h3><span>Health Care Website</span></h3>
+                        <i class='bx bx-cloud' style='color: aqua'></i>
+                        <p>Designed and developed a comprehensive healthcare website that provides information about medical services, appointments, and healthcare professionals. Built both the front end and back end for a seamless user experience. Leveraged Microsoft Azure cloud services for data storage and hosted the entire website on the cloud for scalability and reliability.</p>
+                        <br>
+                        <h4>Languages used:</h4>
+                        <br>
+                        <ul>Front-end (HTML, CSS, JavaScript), Back-end (Node.js, SQL), Azure Cloud</ul>
+                        <br>
+                        <div class="icons-container">
+                            <i class='bx bxl-html5' style='color: #f06529'></i>
+                            <i class='bx bxl-css3' style='color: #2965f1'></i>
+                            <i class='bx bxl-javascript' style='color: #f0db4f'></i>
+                            <i class='bx bxl-nodejs' style='color: #68a063'></i>
+                            <i class='bx bxl-microsoft-azure' style='color: #0089d6'></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3><span>Crypto SHA256</span></h3>
+                        <i class='bx bx-game' style='color: aqua'></i>
+                        <p>Implemented a novel approach to analyze the similarity of hashed sentences using SHA256 encryption. Processed a dataset containing millions of grammatically correct sentences and discovered that some pairs had up to 21 common hashed letters.</p>
+                        <br>
+                        <h4>Languages used:</h4>
+                        <br>
+                        <ul>Java</ul>
+                        <br>
+                        <div class="icons-container">
+                            <i class='bx bxl-java' style='color: #f89820'></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3><span>House Price Prediction</span></h3>
+                        <i class='bx bx-money-withdraw' style='color: aqua;'></i>
+                        <p>Utilized data exploration techniques with Python and the Pandas library to predict house prices. Employed various machine learning algorithms to build a predictive model based on historical housing data.</p>
+                        <br>
+                        <h4>Languages used:</h4>
+                        <br>
+                        <ul>Python, Pandas, Machine Learning</ul>
+                        <br>
+                        <div class="icons-container">
+                            <i class='bx bxl-python' style='color: #306998'></i>
+                            <i class='bx bx-data' style='color: #4CAF50'></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3><span>Simon Memory Game</span></h3>
+                        <i class='bx bx-code-alt' style='color: aqua'></i>
+                        <p>Developed a classic Simon Memory Game using JavaScript for interactivity, HTML for the structure, and CSS for styling. The game presents a sequence of coloured buttons to the player, challenging them to remember and replicate the sequence.</p>
+                        <br>
+                        <h4>Languages used:</h4>
+                        <br>
+                        <ul>JavaScript</ul>
+                        <br>
+                        <div class="icons-container">
+                            <i class='bx bxl-javascript' style='color: #f0db4f'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section></section>
+    <section  id="contact" class="contact"> 
+        <div class = "contact-page">
+            <div class="glass">
+                <h3 data-aos="fade-right">Lets <span>Work</span> Together!</h3>
+                <p class="greeting" data-aos="fade-left"><br> <span>Come</span> Connect <span>With </span> Me! </p>
+                <br>
+                <p data-aos="fade-right">You Can <span>Connect With</span> me on:</p>
+                <p data-aos="fade-left">LinkedIn, <span>Github</span>, WhatsApp, <span>Email</span>, Instagram</p>
+                <p data-aos="fade-right">Click on the buttons Below!</p>
+    
+                <div class = "home-sci" data-aos="fade-left">
+                    <a href = 'https://www.linkedin.com/in/niraj-modh-98160a193/' target='_blank'  style="--i:7"><i class='bx bxl-linkedin'></i></a>
+                    <a href = 'https://github.com/modniraj' target='_blank' style="--i:8"><i class='bx bxl-github'></i></a>
+                    <a href = 'https://wa.me/353894958090' target='_blank' style="--i:9"><i class='bx bxl-whatsapp' ></i></a>
+                    <a href = 'mailto:nirajmodh11@gmail.com?body=Hey,%20Niraj!%20Lets%20Connect!' target='_blank'  style="--i:10" ><i class='bx bx-envelope'></i></a>
+                    <a href = 'https://www.instagram.com/nirajmodh01/' target='_blank' style="--i:11"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+        </div>
+    </seection>
+
+    
+    <footer class="footer" data-aos="fade-up">Designed with ❤️ by <span><br>Niraj Modh</span> <br> &copy; All Rights Sought & Secured 2024</footer>
+
+
+    
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000
+      });
+    </script>
+</body>
+</html>
