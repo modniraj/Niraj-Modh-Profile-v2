@@ -711,6 +711,9 @@ nav a.active {
         flex-direction: column;
         padding: 70px 10% 0;
         text-align: center;
+        background-size: contain; /* Or a specific percentage */
+        background-position: top center; /* Adjust as needed */
+        background-repeat: no-repeat;
     }
 
     .home-content {
@@ -835,6 +838,9 @@ nav a.active {
     .glass {
         width: 400px;
         height: 500px;
+        background-size: contain; /* Or a specific percentage */
+        background-position: top center; /* Adjust as needed */
+        background-repeat: no-repeat;
     }
 }
 
@@ -850,6 +856,12 @@ nav a.active {
     nav a {
         font-size: 18px; /* Reduce font size for smaller screens */
         margin-left: 15px; /* Adjust spacing between nav items */
+    }
+    .home {
+      
+        background-size: contain; /* Or a specific percentage */
+        background-position: top center; /* Adjust as needed */
+        background-repeat: no-repeat;
     }
 
     .home-content, .about, .services-list, .contact, .footer {
@@ -874,6 +886,9 @@ nav a.active {
         width: 100%; /* Make glass effect container full width */
         max-width: 400px; /* Limit max width for larger screens */
         height: auto; /* Adjust height based on content */
+        background-size: contain; /* Or a specific percentage */
+        background-position: top center; /* Adjust as needed */
+        background-repeat: no-repeat;
     }
 
     .progress-bar {
@@ -893,7 +908,12 @@ nav a.active {
     .header, nav a {
         font-size: 16px; /* Further reduce font sizes for very small screens */
     }
-
+    .home {
+      
+        background-size: contain; /* Or a specific percentage */
+        background-position: top center; /* Adjust as needed */
+        background-repeat: no-repeat;
+    }
     .home-content, .about, .services-list, .Skills, .projects, .contact, .footer {
         padding: 15px; /* Reduce padding for content areas */
         padding-top: 25%;
@@ -918,6 +938,9 @@ nav a.active {
     .glass {
         padding: 15px; /* Adjust padding inside glass effect containers */
         border-radius: 25px; /* Soften border radius for aesthetic adaptation */
+        background-size: contain; /* Or a specific percentage */
+        background-position: top center; /* Adjust as needed */
+        background-repeat: no-repeat;
     }
 }
 
